@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telugu Typing Online — Type in English Get Telugu</title>
+  <meta name="description"
+    content="Free Telugu typing tool — type in English phonetically and get Telugu text instantly. Copy to WhatsApp, Instagram or Word. No signup, works on mobile.">
+  <meta name="keywords"
+    content="telugu typing online, type in telugu, english to telugu typing, telugu typing tool, telugu keyboard online, type telugu in english">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="TeluguFontStyle.co.in">
+  <meta name="theme-color" content="#CD2C58">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://telugufontstyle.co.in/tools/telugu-typing">
+  <meta property="og:title" content="Telugu Typing Online — Type in English Get Telugu | TeluguFontStyle.co.in">
+  <meta property="og:description"
+    content="Free Telugu typing tool — type in English phonetically and instantly get Telugu text. Copy to WhatsApp, Instagram, Word or any app. No signup, works on mobile.">
+  <meta property="og:image" content="https://telugufontstyle.co.in/assets/img/og.jpg">
+  <meta property="og:locale" content="te_IN">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Telugu Typing Online — Type in English Get Telugu | TeluguFontStyle.co.in">
+  <meta name="twitter:description"
+    content="Free Telugu typing tool — type in English phonetically and instantly get Telugu text. Copy to WhatsApp, Instagram, Word or any app. No signup, works on mobile.">
+  <link rel="canonical" href="https://telugufontstyle.co.in/tools/telugu-typing">
+  <link rel="icon" href="/assets/img/favicon/favicon.ico" sizes="any">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="preload" href="/assets/css/style.css" as="style">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500&family=Noto+Sans+Telugu:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- ADSENSE: uncomment after AdSense approval
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7065310966580167"
+    crossorigin="anonymous"></script>
+  -->
+</head>
+
+<body>
+  <style>
+    .tool-wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem
+    }
+
+    .tool-hero {
+      background: var(--ink);
+      padding: 2.5rem 2rem;
+      margin: -0rem 0 0
+    }
+
+    .tool-hero-inner {
+      max-width: 900px;
+      margin: 0 auto
+    }
+
+    .tool-hero h1 {
+      font-family: var(--serif);
+      font-size: 2rem;
+      font-weight: 900;
+      color: #fff;
+      margin-bottom: .5rem;
+      line-height: 1.25
+    }
+
+    .tool-hero p {
+      color: rgba(255, 255, 255, .55);
+      font-size: .95rem;
+      font-weight: 300;
+      margin: 0
+    }
+
+    .tool-hero .breadcrumb {
+      font-size: .75rem;
+      color: rgba(255, 255, 255, .35);
+      margin-bottom: .75rem
+    }
+
+    .tool-hero .breadcrumb a {
+      color: rgba(255, 255, 255, .5);
+      text-decoration: none
+    }
+
+    .tool-box {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      padding: 1.5rem;
+      margin: 1.5rem 0
+    }
+
+    .tool-label {
+      font-size: .78rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      color: var(--ink-3);
+      margin-bottom: .5rem;
+      display: block
+    }
+
+    .tool-textarea {
+      width: 100%;
+      border: 1.5px solid var(--border);
+      border-radius: 6px;
+      padding: .85rem 1rem;
+      font-size: 1rem;
+      font-family: 'Noto Sans Telugu', sans-serif;
+      resize: vertical;
+      min-height: 110px;
+      outline: none;
+      transition: .2s;
+      box-sizing: border-box;
+      background: var(--white);
+      color: var(--ink)
+    }
+
+    .tool-textarea:focus {
+      border-color: var(--red)
+    }
+
+    .tool-output {
+      width: 100%;
+      min-height: 80px;
+      border: 1.5px solid var(--border);
+      border-radius: 6px;
+      padding: .85rem 1rem;
+      font-size: 1.1rem;
+      font-family: 'Noto Sans Telugu', sans-serif;
+      background: var(--cream);
+      color: var(--ink);
+      box-sizing: border-box;
+      line-height: 1.8
+    }
+
+    .tool-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      background: var(--red);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: .65rem 1.4rem;
+      font-size: .88rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: .2s
+    }
+
+    .tool-btn:hover {
+      opacity: .88
+    }
+
+    .tool-btn-ghost {
+      background: transparent;
+      color: var(--ink);
+      border: 1.5px solid var(--border)
+    }
+
+    .tool-btn-ghost:hover {
+      border-color: var(--ink);
+      background: var(--cream)
+    }
+
+    .tool-btns {
+      display: flex;
+      gap: .6rem;
+      flex-wrap: wrap;
+      margin-top: .8rem
+    }
+
+    .tool-stat {
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center
+    }
+
+    .tool-stat-n {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--ink);
+      font-family: var(--serif)
+    }
+
+    .tool-stat-l {
+      font-size: .75rem;
+      color: var(--ink-3);
+      margin-top: .1rem
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+      gap: .75rem;
+      margin: 1rem 0
+    }
+
+    .tool-select {
+      border: 1.5px solid var(--border);
+      border-radius: 6px;
+      padding: .6rem .8rem;
+      font-size: .88rem;
+      background: #fff;
+      color: var(--ink);
+      cursor: pointer;
+      outline: none
+    }
+
+    .tool-select:focus {
+      border-color: var(--red)
+    }
+
+    .kbd {
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-size: .8rem;
+      font-family: monospace
+    }
+
+    .faq-simple h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--ink);
+      margin: 1.2rem 0 .4rem
+    }
+
+    .faq-simple p {
+      color: var(--ink-3);
+      font-size: .9rem;
+      line-height: 1.7;
+      margin: 0
+    }
+
+    @media(max-width:600px) {
+      .tool-hero h1 {
+        font-size: 1.5rem
+      }
+
+      .tool-wrap {
+        padding: 1.5rem 1rem
+      }
+    }
+  </style>
+  <nav class="nav">
+    <div class="nav-inner"><a href="/" class="nav-logo"><span class="hi">తెలుగు</span>FontStyle<span
+          class="dot">·</span>co.in</a>
+      <button class="hamburger" id="hamburger" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/fonts/unicode-converter">Unicode</a></li>
+        <li><a href="/fonts/telugu-script-converter">Script</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/pages/about-us">About</a></li>
+        <li><a href="/pages/contact-us">Contact</a></li>
+        <li><a href="/#generator" class="nav-cta">Generate →</a></li>
+      </ul>
+    </div>
+    <div class="mob-nav" id="mobNav" aria-hidden="true">
+      <a href="/">Home</a><a href="/fonts/unicode-converter">Unicode Converter</a>
+      <a href="/fonts/telugu-script-converter">Script Converter</a>
+      <a href="/blog/">Blog</a><a href="/pages/about-us">About Us</a>
+      <a href="/pages/contact-us">Contact</a>
+    </div>
+  </nav>
+
+  <div class="tool-hero">
+    <div class="tool-hero-inner">
+      <nav class="breadcrumb"><a href="/">Home</a> › <a href="/tools/">Tools</a> › Telugu Typing Tool</nav>
+      <h1>Telugu Typing Tool — Type in English, Get Telugu</h1>
+      <p>Type naturally in English — our tool converts it to Telugu instantly. Copy the output to WhatsApp,
+        Instagram, Word, or any app.</p>
+    </div>
+  </div>
+
+  <!-- TFS - Display Responsive — Top -->
+  <!-- ADSENSE: uncomment after AdSense approval
+<div style="text-align:center;padding:.5rem 1rem">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7065310966580167" data-ad-slot="5089412780"
+      data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+-->
+
+  <div class="tool-wrap">
+
+    <div class="tool-box">
+      <span class="tool-label">Type in English — get Telugu instantly</span>
+      <textarea class="tool-textarea" id="typingInput" placeholder="Type here in English e.g. naa pEru Ravi..."
+        rows="4" oninput="doTranslit()"></textarea>
+      <div style="margin-top:.75rem">
+        <span class="tool-label">Telugu Output (Unicode Telugu)</span>
+        <div class="tool-output" id="typingOutput" lang="te" style="min-height:80px">నా పేరు రవి</div>
+      </div>
+      <div class="tool-btns">
+        <button class="tool-btn" onclick="copyTyping()">📋 Copy Telugu Text</button>
+        <button class="tool-btn tool-btn-ghost" onclick="clearTyping()">Clear</button>
+        <button class="tool-btn tool-btn-ghost" onclick="speakTelugu()">🔊 Listen</button>
+      </div>
+      <div style="margin-top:.75rem;font-size:.78rem;color:var(--ink-4)">
+        💡 Tip: "aa" → ఆ, "ee" → ఈ, "E" → ఏ, "T/D/N/L" → ట/డ/ణ/ళ, "sh" → శ, "Sh" → ష, "M" → ం. Full chart on the <a href="/fonts/unicode-converter" style="color:var(--red)">Unicode Converter</a> page.
+      </div>
+    </div>
+
+    <div
+      style="background:var(--cream);border:1px solid var(--border);border-radius:var(--r);padding:1.2rem;margin-bottom:1.5rem">
+      <h3 style="font-size:.88rem;font-weight:600;color:var(--ink);margin-bottom:.6rem">Common Words Quick Reference
+      </h3>
+      <div style="display:flex;flex-wrap:wrap;gap:.4rem" id="quickWords">
+        <button onclick="insertWord('namaskaaram')"
+          style="font-size:.78rem;padding:3px 10px;border:1px solid var(--border);border-radius:3px;background:#fff;cursor:pointer;color:var(--ink)">namaskaaram
+          → <span lang="te">నమస్కారం</span></button>
+        <button onclick="insertWord('telugu')"
+          style="font-size:.78rem;padding:3px 10px;border:1px solid var(--border);border-radius:3px;background:#fff;cursor:pointer;color:var(--ink)">telugu
+          → <span lang="te">తెలుగు</span></button>
+        <button onclick="insertWord('sankranti')"
+          style="font-size:.78rem;padding:3px 10px;border:1px solid var(--border);border-radius:3px;background:#fff;cursor:pointer;color:var(--ink)">sankranti
+          → <span lang="te">సంక్రాంతి</span></button>
+        <button onclick="insertWord('prEma')"
+          style="font-size:.78rem;padding:3px 10px;border:1px solid var(--border);border-radius:3px;background:#fff;cursor:pointer;color:var(--ink)">prEma
+          → <span lang="te">ప్రేమ</span></button>
+        <button onclick="insertWord('kRuShNa')"
+          style="font-size:.78rem;padding:3px 10px;border:1px solid var(--border);border-radius:3px;background:#fff;cursor:pointer;color:var(--ink)">kRuShNa
+          → <span lang="te">కృష్ణ</span></button>
+        <button onclick="insertWord('shubhaakaankshalu')"
+          style="font-size:.78rem;padding:3px 10px;border:1px solid var(--border);border-radius:3px;background:#fff;cursor:pointer;color:var(--ink)">shubhaakaankshalu
+          → <span lang="te">శుభాకాంక్షలు</span></button>
+        <button onclick="insertWord('amma')"
+          style="font-size:.78rem;padding:3px 10px;border:1px solid var(--border);border-radius:3px;background:#fff;cursor:pointer;color:var(--ink)">amma
+          → <span lang="te">అమ్మ</span></button>
+        <button onclick="insertWord('dhanyavaadaalu')"
+          style="font-size:.78rem;padding:3px 10px;border:1px solid var(--border);border-radius:3px;background:#fff;cursor:pointer;color:var(--ink)">dhanyavaadaalu
+          → <span lang="te">ధన్యవాదాలు</span></button>
+      </div>
+    </div>
+
+    <h2 style="font-family:var(--serif);font-size:1.3rem;font-weight:700;color:var(--ink);margin-bottom:1rem">How to
+      Type Telugu Online</h2>
+    <p style="color:var(--ink-3);line-height:1.8;margin-bottom:1rem">This Telugu typing tool converts English phonetic
+      input to Telugu script instantly. Type the way Telugu sounds in English and the Telugu appears as you type —
+      consonants join automatically (amma → <span lang="te">అమ్మ</span>) and n/m before a consonant becomes sunna (sundaram → <span lang="te">సుందరం</span>). No keyboard layout to memorise, no special software needed.</p>
+    <p style="color:var(--ink-3);line-height:1.8;margin-bottom:1.5rem">Once you have your Telugu text, click Copy to
+      paste it anywhere — WhatsApp, Instagram, Facebook, Google Docs, emails, or any app that supports Unicode text. The
+      output is proper Unicode Telugu, not ASCII encoding, so it works on every device.</p>
+
+    <div class="faq-simple">
+      <h3>Does this Telugu typing tool work on mobile?</h3>
+      <p>Yes — fully responsive and tested on Android and iOS. Tap the text area, type in English phonetically, and copy
+        the Telugu output to any app on your phone.</p>
+      <h3>How is this different from a Telugu keyboard?</h3>
+      <p>A Telugu keyboard requires you to learn where each Telugu letter is placed. This tool lets you type
+        phonetically in English — "namaste" becomes "<span lang="te">నమస్తే</span>" automatically. Much faster for beginners and occasional
+        Telugu writers.</p>
+      <h3>Can I use the Telugu text output in Canva or Word?</h3>
+      <p>Yes. Copy the Telugu Unicode text from this tool and paste it directly into Canva, Microsoft Word, Google Docs,
+        PowerPoint, or any design app. It renders correctly as long as the app supports Unicode Telugu — all modern
+        apps do.</p>
+      <h3>Is this Telugu typing tool free?</h3>
+      <p>Completely free, no signup, no limits. Also try our <a href="/#generator" style="color:var(--red)">Telugu font
+          style generator</a> to preview your typed text in 100+ beautiful Telugu fonts.</p>
+    </div>
+  </div>
+
+  <!-- TFS - In Article — Mid -->
+  <!-- ADSENSE: uncomment after AdSense approval
+<div style="text-align:center;padding:.5rem 1rem">
+    <ins class="adsbygoogle" style="display:block;text-align:center" data-ad-layout="in-article" data-ad-format="fluid"
+      data-ad-client="ca-pub-7065310966580167" data-ad-slot="5585020621"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+-->
+  <!-- TFS - Multiplex — Bottom -->
+  <!-- ADSENSE: uncomment after AdSense approval
+<div style="text-align:center;padding:.5rem 1rem">
+    <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-7065310966580167"
+      data-ad-slot="3393187733"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+-->
+  <footer role="contentinfo"
+    style="background:#111009;border-top:1px solid rgba(255,255,255,.06);padding:1.8rem 2rem;text-align:center;font-size:.78rem;color:rgba(255,255,255,.25)">
+    <p>© 2026 TeluguFontStyle.co.in &nbsp;·&nbsp;
+      <a href="/pages/privacy-policy" style="color:rgba(255,255,255,.35)">Privacy</a> &nbsp;·&nbsp;
+      <a href="/pages/terms-and-conditions" style="color:rgba(255,255,255,.35)">Terms</a> &nbsp;·&nbsp;
+      <a href="/#generator" style="color:rgba(255,255,255,.35)">Font Generator</a>
+    </p>
+  </footer>
+  <script src="/assets/js/shared.js" defer></script>
+  <script src="/assets/js/translit.js"></script>
+  <script>
+    (function () { var loaded = false; function loadGA() { if (loaded) return; var GA_ID = 'G-XXXXXXXXXX'; /* TODO: put your TeluguFontStyle GA4 Measurement ID here */ if (GA_ID.indexOf('XXXX') !== -1) return; if (/(^|;\s*)tfs_cookie_consent=(necessary|declined)/.test(document.cookie)) return; loaded = true; var s = document.createElement('script'); s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID; s.async = true; document.head.appendChild(s); window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', GA_ID, { 'transport_type': 'beacon', 'send_page_view': true }); window.gtag = gtag; } window.addEventListener('scroll', loadGA, { once: true, passive: true }); window.addEventListener('click', loadGA, { once: true, passive: true }); window.addEventListener('touchstart', loadGA, { once: true, passive: true }); setTimeout(loadGA, 5000); })();
+  </script>
+  <script>
+    /* Phonetic engine: /assets/js/translit.js (shared across the site) */
+    function convertWord(word) { return window.TeluguTranslit.wordToTelugu(word); }
+    function doTranslit() {
+      var inp = document.getElementById('typingInput').value;
+      if (!inp.trim()) { document.getElementById('typingOutput').textContent = ''; return; }
+      var words = inp.split(/(\s+)/);
+      var out = words.map(function (w) { return /\s/.test(w) ? w : convertWord(w); }).join('');
+      document.getElementById('typingOutput').textContent = out;
+    }
+    async function copyTyping() {
+      var txt = document.getElementById('typingOutput').textContent;
+      try { await navigator.clipboard.writeText(txt); } catch (e) { var t = document.createElement('textarea'); t.value = txt; document.body.appendChild(t); t.select(); document.execCommand('copy'); document.body.removeChild(t); }
+      var btn = event.target; btn.textContent = '✓ Copied!'; setTimeout(function () { btn.textContent = '📋 Copy Telugu Text'; }, 2000);
+    }
+    function clearTyping() {
+      document.getElementById('typingInput').value = '';
+      document.getElementById('typingOutput').textContent = '';
+    }
+    function speakTelugu() {
+      var txt = document.getElementById('typingOutput').textContent;
+      if (!txt) return;
+      var u = new SpeechSynthesisUtterance(txt);
+      u.lang = 'te-IN'; u.rate = 0.9;
+      window.speechSynthesis.speak(u);
+    }
+    function insertWord(w) {
+      var inp = document.getElementById('typingInput');
+      inp.value += (inp.value && !inp.value.endsWith(' ') ? ' ' : '') + w + ' ';
+      doTranslit();
+      inp.focus();
+    }
+  </script>
+</body>
+
+</html>

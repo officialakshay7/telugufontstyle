@@ -1,0 +1,36 @@
+# Cloudflare Pages _redirects
+# Format: /old-path  /new-path  status-code
+
+# Trailing slash normalisation
+/blog              /blog/              301
+/tools             /tools/             301
+
+# Section folders without their own index page
+/fonts             /tools/             301
+/fonts/            /tools/             301
+/pages             /pages/about-us     301
+/pages/            /pages/about-us     301
+
+# Common short URLs people might guess
+/about             /pages/about-us          301
+/contact           /pages/contact-us        301
+/privacy           /pages/privacy-policy    301
+/terms             /pages/terms-and-conditions  301
+/disclaimer        /pages/disclaimer        301
+
+# Converter short forms
+/unicode-converter        /fonts/unicode-converter          301
+/script-converter         /fonts/telugu-script-converter    301
+/fonts/unicode            /fonts/unicode-converter          301
+/fonts/script             /fonts/telugu-script-converter    301
+
+# Blog short forms
+/blog/calligraphy         /blog/telugu-calligraphy-fonts    301
+/blog/best-fonts          /blog/best-telugu-fonts           301
+/blog/ms-word             /blog/telugu-font-for-ms-word     301
+/blog/anu-fonts           /blog/anu-telugu-fonts-guide      301
+/blog/gautami             /blog/gautami-font-guide          301
+/blog/telugu-script       /blog/telugu-script-fonts-guide   301
+
+# Generator anchor
+/generator         /#generator         301

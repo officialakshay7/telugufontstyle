@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telugu Text to Speech — Free Online TTS Tool</title>
+  <meta name="description"
+    content="Free Telugu text to speech — type Telugu and hear it read aloud in your browser. Adjustable speed and voice. Works in Chrome and Edge, no signup needed.">
+  <meta name="keywords"
+    content="telugu text to speech, telugu tts online, telugu audio generator, telugu text to speech free">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="TeluguFontStyle.co.in">
+  <meta name="theme-color" content="#CD2C58">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://telugufontstyle.co.in/tools/telugu-text-speech">
+  <meta property="og:title" content="Telugu Text to Speech Online — Free TTS Tool | TeluguFontStyle.co.in">
+  <meta property="og:description"
+    content="Free Telugu text to speech tool — type or paste Telugu text and hear it read aloud in your browser. Adjustable speed, pitch and voice. No signup, works on Chrome and Edge.">
+  <meta property="og:image" content="https://telugufontstyle.co.in/assets/img/og.jpg">
+  <meta property="og:locale" content="te_IN">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Telugu Text to Speech Online — Free TTS Tool | TeluguFontStyle.co.in">
+  <meta name="twitter:description"
+    content="Free Telugu text to speech tool — type or paste Telugu text and hear it read aloud in your browser. Adjustable speed, pitch and voice. No signup, works on Chrome and Edge.">
+  <link rel="canonical" href="https://telugufontstyle.co.in/tools/telugu-text-speech">
+  <link rel="icon" href="/assets/img/favicon/favicon.ico" sizes="any">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="preload" href="/assets/css/style.css" as="style">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500&family=Noto+Sans+Telugu:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- ADSENSE: uncomment after AdSense approval
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7065310966580167"
+    crossorigin="anonymous"></script>
+  -->
+</head>
+
+<body>
+  <style>
+    .tool-wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem
+    }
+
+    .tool-hero {
+      background: var(--ink);
+      padding: 2.5rem 2rem;
+      margin: -0rem 0 0
+    }
+
+    .tool-hero-inner {
+      max-width: 900px;
+      margin: 0 auto
+    }
+
+    .tool-hero h1 {
+      font-family: var(--serif);
+      font-size: 2rem;
+      font-weight: 900;
+      color: #fff;
+      margin-bottom: .5rem;
+      line-height: 1.25
+    }
+
+    .tool-hero p {
+      color: rgba(255, 255, 255, .55);
+      font-size: .95rem;
+      font-weight: 300;
+      margin: 0
+    }
+
+    .tool-hero .breadcrumb {
+      font-size: .75rem;
+      color: rgba(255, 255, 255, .35);
+      margin-bottom: .75rem
+    }
+
+    .tool-hero .breadcrumb a {
+      color: rgba(255, 255, 255, .5);
+      text-decoration: none
+    }
+
+    .tool-box {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      padding: 1.5rem;
+      margin: 1.5rem 0
+    }
+
+    .tool-label {
+      font-size: .78rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      color: var(--ink-3);
+      margin-bottom: .5rem;
+      display: block
+    }
+
+    .tool-textarea {
+      width: 100%;
+      border: 1.5px solid var(--border);
+      border-radius: 6px;
+      padding: .85rem 1rem;
+      font-size: 1rem;
+      font-family: 'Noto Sans Telugu', sans-serif;
+      resize: vertical;
+      min-height: 110px;
+      outline: none;
+      transition: .2s;
+      box-sizing: border-box;
+      background: var(--white);
+      color: var(--ink)
+    }
+
+    .tool-textarea:focus {
+      border-color: var(--red)
+    }
+
+    .tool-output {
+      width: 100%;
+      min-height: 80px;
+      border: 1.5px solid var(--border);
+      border-radius: 6px;
+      padding: .85rem 1rem;
+      font-size: 1.1rem;
+      font-family: 'Noto Sans Telugu', sans-serif;
+      background: var(--cream);
+      color: var(--ink);
+      box-sizing: border-box;
+      line-height: 1.8
+    }
+
+    .tool-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      background: var(--red);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: .65rem 1.4rem;
+      font-size: .88rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: .2s
+    }
+
+    .tool-btn:hover {
+      opacity: .88
+    }
+
+    .tool-btn-ghost {
+      background: transparent;
+      color: var(--ink);
+      border: 1.5px solid var(--border)
+    }
+
+    .tool-btn-ghost:hover {
+      border-color: var(--ink);
+      background: var(--cream)
+    }
+
+    .tool-btns {
+      display: flex;
+      gap: .6rem;
+      flex-wrap: wrap;
+      margin-top: .8rem
+    }
+
+    .tool-stat {
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center
+    }
+
+    .tool-stat-n {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--ink);
+      font-family: var(--serif)
+    }
+
+    .tool-stat-l {
+      font-size: .75rem;
+      color: var(--ink-3);
+      margin-top: .1rem
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+      gap: .75rem;
+      margin: 1rem 0
+    }
+
+    .tool-select {
+      border: 1.5px solid var(--border);
+      border-radius: 6px;
+      padding: .6rem .8rem;
+      font-size: .88rem;
+      background: #fff;
+      color: var(--ink);
+      cursor: pointer;
+      outline: none
+    }
+
+    .tool-select:focus {
+      border-color: var(--red)
+    }
+
+    .kbd {
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 2px 8px;
+      font-size: .8rem;
+      font-family: monospace
+    }
+
+    .faq-simple h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--ink);
+      margin: 1.2rem 0 .4rem
+    }
+
+    .faq-simple p {
+      color: var(--ink-3);
+      font-size: .9rem;
+      line-height: 1.7;
+      margin: 0
+    }
+
+    @media(max-width:600px) {
+      .tool-hero h1 {
+        font-size: 1.5rem
+      }
+
+      .tool-wrap {
+        padding: 1.5rem 1rem
+      }
+    }
+  </style>
+  <nav class="nav">
+    <div class="nav-inner"><a href="/" class="nav-logo"><span class="hi">తెలుగు</span>FontStyle<span
+          class="dot">·</span>co.in</a>
+      <button class="hamburger" id="hamburger" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/fonts/unicode-converter">Unicode</a></li>
+        <li><a href="/fonts/telugu-script-converter">Script</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/pages/about-us">About</a></li>
+        <li><a href="/pages/contact-us">Contact</a></li>
+        <li><a href="/#generator" class="nav-cta">Generate →</a></li>
+      </ul>
+    </div>
+    <div class="mob-nav" id="mobNav" aria-hidden="true">
+      <a href="/">Home</a><a href="/fonts/unicode-converter">Unicode Converter</a>
+      <a href="/fonts/telugu-script-converter">Script Converter</a>
+      <a href="/blog/">Blog</a><a href="/pages/about-us">About Us</a>
+      <a href="/pages/contact-us">Contact</a>
+    </div>
+  </nav>
+
+  <div class="tool-hero">
+    <div class="tool-hero-inner">
+      <nav class="breadcrumb"><a href="/">Home</a> › <a href="/tools/">Tools</a> › Telugu Text to Speech</nav>
+      <h1>Telugu Text to Speech — Free Online TTS Tool</h1>
+      <p>Type Telugu text and hear it read aloud instantly. Adjustable speed, pitch and voice selection. Free, no signup,
+        works in Chrome and Edge.</p>
+    </div>
+  </div>
+
+  <!-- TFS - Display Responsive — Top -->
+  <!-- ADSENSE: uncomment after AdSense approval
+<div style="text-align:center;padding:.5rem 1rem">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7065310966580167" data-ad-slot="5089412780"
+      data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+-->
+
+  <div class="tool-wrap">
+
+    <div class="tool-box">
+      <span class="tool-label">Enter Telugu text to read aloud</span>
+      <textarea class="tool-textarea" id="ttsText" rows="5"
+        placeholder="మీరు వినాలనుకునే తెలుగు టెక్స్ట్ ఇక్కడ రాయండి...">నమస్కారం! తెలుగు భాష చాలా మధురమైనది. దీనిని దేశ భాషలందు తెలుగు లెస్స అని కీర్తించారు.</textarea>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.75rem;margin-top:1rem">
+        <div>
+          <label class="tool-label">Speed</label>
+          <input type="range" id="ttsRate" min="0.5" max="2" step="0.1" value="0.9"
+            style="width:100%;accent-color:var(--red)"
+            oninput="document.getElementById('ttsRateLbl').textContent=this.value+'×'">
+          <span id="ttsRateLbl" style="font-size:.78rem;color:var(--ink-3)">0.9×</span>
+        </div>
+        <div>
+          <label class="tool-label">Pitch</label>
+          <input type="range" id="ttsPitch" min="0.5" max="2" step="0.1" value="1"
+            style="width:100%;accent-color:var(--red)"
+            oninput="document.getElementById('ttsPitchLbl').textContent=this.value">
+          <span id="ttsPitchLbl" style="font-size:.78rem;color:var(--ink-3)">1.0</span>
+        </div>
+        <div>
+          <label class="tool-label">Voice</label>
+          <select id="ttsVoice" class="tool-select" style="width:100%"></select>
+        </div>
+      </div>
+
+      <div class="tool-btns" style="margin-top:1rem">
+        <button class="tool-btn" id="ttsPlayBtn" onclick="playTTS()">▶ Play</button>
+        <button class="tool-btn tool-btn-ghost" onclick="pauseTTS()">⏸ Pause</button>
+        <button class="tool-btn tool-btn-ghost" onclick="stopTTS()">⏹ Stop</button>
+      </div>
+      <div id="ttsStatus" style="font-size:.78rem;color:var(--ink-4);margin-top:.5rem">Click Play to hear your Telugu
+        text</div>
+    </div>
+
+    <div
+      style="background:var(--cream);border:1px solid var(--border);border-radius:var(--r);padding:1rem;margin-bottom:1.5rem;font-size:.85rem;color:var(--ink-3)">
+      <strong>Browser note:</strong> Text-to-speech works best in Chrome and Edge. For best Telugu pronunciation, select
+      a voice with "Telugu" or "te-IN" in the name. Voice availability depends on your device and browser.
+    </div>
+
+    <h2 style="font-family:var(--serif);font-size:1.3rem;font-weight:700;color:var(--ink);margin-bottom:.75rem">Telugu
+      Text to Speech — Free Online</h2>
+    <p style="color:var(--ink-3);line-height:1.8;margin-bottom:1rem">This free Telugu text to speech tool uses your
+      browser's built-in speech synthesis to read Telugu text aloud. It works without any API key or subscription — the
+      Web Speech API in your browser generates the voice — on-device voices work offline, while "online" voices from Google
+      or Microsoft are generated by your browser vendor.</p>
+    <p style="color:var(--ink-3);line-height:1.8;margin-bottom:1.5rem">Use it to check pronunciation of Telugu words,
+      create audio previews of Telugu content, help with Telugu learning, or assist users with reading difficulties.</p>
+
+    <div class="faq-simple">
+      <h3>Is this Telugu text to speech tool free?</h3>
+      <p>Yes, completely free. It uses your browser's built-in Web Speech API — no API keys, no cost per character,
+        and nothing is sent to our servers.</p>
+      <h3>Can I download the audio as an MP3?</h3>
+      <p>Browser-based TTS does not support audio download directly. For downloadable Telugu audio, you would need a
+        cloud TTS service like Google Cloud TTS or Amazon Polly (both paid).</p>
+      <h3>The voice sounds robotic — how can I improve it?</h3>
+      <p>Choose a different voice from the Voice dropdown — voices vary significantly by browser and device. On Android
+        Chrome, Google's Telugu voices sound much more natural. In Microsoft Edge, the online "Shruti" and "Mohan" Telugu
+        (India) voices sound very natural. If no Telugu voice is listed, your device has none installed — the status
+        line under the Play button explains how to add one.</p>
+    </div>
+  </div>
+
+  <!-- TFS - In Article — Mid -->
+  <!-- ADSENSE: uncomment after AdSense approval
+<div style="text-align:center;padding:.5rem 1rem">
+    <ins class="adsbygoogle" style="display:block;text-align:center" data-ad-layout="in-article" data-ad-format="fluid"
+      data-ad-client="ca-pub-7065310966580167" data-ad-slot="5585020621"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+-->
+  <!-- TFS - Multiplex — Bottom -->
+  <!-- ADSENSE: uncomment after AdSense approval
+<div style="text-align:center;padding:.5rem 1rem">
+    <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-7065310966580167"
+      data-ad-slot="3393187733"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+-->
+  <footer role="contentinfo"
+    style="background:#111009;border-top:1px solid rgba(255,255,255,.06);padding:1.8rem 2rem;text-align:center;font-size:.78rem;color:rgba(255,255,255,.25)">
+    <p>© 2026 TeluguFontStyle.co.in &nbsp;·&nbsp;
+      <a href="/pages/privacy-policy" style="color:rgba(255,255,255,.35)">Privacy</a> &nbsp;·&nbsp;
+      <a href="/pages/terms-and-conditions" style="color:rgba(255,255,255,.35)">Terms</a> &nbsp;·&nbsp;
+      <a href="/#generator" style="color:rgba(255,255,255,.35)">Font Generator</a>
+    </p>
+  </footer>
+  <script src="/assets/js/shared.js" defer></script>
+  <script>
+    (function () { var loaded = false; function loadGA() { if (loaded) return; var GA_ID = 'G-XXXXXXXXXX'; /* TODO: put your TeluguFontStyle GA4 Measurement ID here */ if (GA_ID.indexOf('XXXX') !== -1) return; if (/(^|;\s*)tfs_cookie_consent=(necessary|declined)/.test(document.cookie)) return; loaded = true; var s = document.createElement('script'); s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID; s.async = true; document.head.appendChild(s); window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', GA_ID, { 'transport_type': 'beacon', 'send_page_view': true }); window.gtag = gtag; } window.addEventListener('scroll', loadGA, { once: true, passive: true }); window.addEventListener('click', loadGA, { once: true, passive: true }); window.addEventListener('touchstart', loadGA, { once: true, passive: true }); setTimeout(loadGA, 5000); })();
+  </script>
+  <script>
+    function loadVoices() {
+      var voices = window.speechSynthesis.getVoices();
+      var sel = document.getElementById('ttsVoice');
+      sel.innerHTML = '';
+      var auto = document.createElement('option'); auto.value = ''; auto.textContent = 'Auto — Telugu (te-IN)'; sel.appendChild(auto);
+      var hiVoices = voices.filter(function (v) { return /^te/i.test(v.lang); });
+      var otherVoices = voices.filter(function (v) { return !/^te/i.test(v.lang); });
+      var st = document.getElementById('ttsStatus');
+      if (voices.length && !hiVoices.length && st) st.textContent = 'No Telugu voice was found on this device. On Android install/enable Google Text-to-Speech with Telugu; on Windows add Telugu speech in Settings → Time & Language → Speech. Chrome on desktop may also offer an online Telugu voice.';
+      if (hiVoices.length) { sel.value = hiVoices[0].name;
+        var og = document.createElement('optgroup'); og.label = 'Telugu Voices';
+        hiVoices.forEach(function (v) { var o = document.createElement('option'); o.value = v.name; o.textContent = v.name + ' (' + v.lang + ')'; og.appendChild(o); });
+        sel.appendChild(og);
+      }
+      if (otherVoices.length) {
+        var og2 = document.createElement('optgroup'); og2.label = 'Other Voices';
+        otherVoices.slice(0, 10).forEach(function (v) { var o = document.createElement('option'); o.value = v.name; o.textContent = v.name + ' (' + v.lang + ')'; og2.appendChild(o); });
+        sel.appendChild(og2);
+      }
+    }
+    window.speechSynthesis.onvoiceschanged = loadVoices;
+    loadVoices();
+    var currentUtterance = null;
+    function playTTS() {
+      window.speechSynthesis.cancel();
+      var txt = document.getElementById('ttsText').value;
+      if (!txt.trim()) return;
+      var u = new SpeechSynthesisUtterance(txt);
+      var sel = document.getElementById('ttsVoice');
+      var voices = window.speechSynthesis.getVoices();
+      var chosen = voices.find(function (v) { return v.name === sel.value; });
+      if (chosen) u.voice = chosen;
+      else u.lang = 'te-IN';
+      u.rate = parseFloat(document.getElementById('ttsRate').value);
+      u.pitch = parseFloat(document.getElementById('ttsPitch').value);
+      u.onstart = function () { document.getElementById('ttsStatus').textContent = '▶ Playing...'; document.getElementById('ttsPlayBtn').textContent = '▶ Playing'; };
+      u.onend = function () { document.getElementById('ttsStatus').textContent = '✓ Done'; document.getElementById('ttsPlayBtn').textContent = '▶ Play'; };
+      u.onerror = function (e) { document.getElementById('ttsStatus').textContent = 'Error: ' + e.error; };
+      currentUtterance = u;
+      window.speechSynthesis.speak(u);
+    }
+    function pauseTTS() { window.speechSynthesis.paused ? window.speechSynthesis.resume() : window.speechSynthesis.pause(); }
+    function stopTTS() { window.speechSynthesis.cancel(); document.getElementById('ttsPlayBtn').textContent = '▶ Play'; document.getElementById('ttsStatus').textContent = 'Stopped'; }
+  </script>
+</body>
+
+</html>
