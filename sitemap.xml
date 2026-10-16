@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
        <loc>https://telugufontstyle.co.in/</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>1.0000</priority>
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/fonts/unicode-converter</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/fonts/telugu-script-converter</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/blog/</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/pages/about-us</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/pages/contact-us</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
@@ -84,22 +84,22 @@
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/pages/privacy-policy</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/pages/terms-and-conditions</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/pages/disclaimer</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/tools/telugu-to-english</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
@@ -134,62 +134,62 @@
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/tools/telugu-typing</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/tools/telugu-fancy-text</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/tools/telugu-character-limit</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/tools/telugu-voice-typing</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/tools/</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.5120</priority>
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/tools/telugu-keyboard</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.4096</priority>
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/tools/telugu-text-speech</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.4096</priority>
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/tools/telugu-text-image</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.4096</priority>
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/tools/telugu-lorem-ipsum</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.4096</priority>
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/tools/telugu-word-counter</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.4096</priority>
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/tools/bgmi-name-generator</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.4096</priority>
   </url>
   <url>
        <loc>https://telugufontstyle.co.in/tools/kannada-font-generator</loc>
-       <lastmod>2026-10-03T05:15:36+00:00</lastmod>
+       <lastmod>2026-10-16T04:06:12+00:00</lastmod>
        <priority>0.4096</priority>
   </url>
 </urlset>
